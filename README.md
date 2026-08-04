@@ -106,19 +106,21 @@ The frontend communicates with the backend using REST APIs while MongoDB persist
 
 ```
 FoodAdda
-│
-├── client/
-│   ├── src/
-│   ├── public/
-│   └── package.json
-│
-├── server/
-│   ├── controllers/
+├── backend/
 │   ├── models/
 │   ├── routes/
-│   ├── middleware/
-│   └── server.js
+│   ├── db.js
+│   └── index.js
 │
+├── public/
+├── src/
+│   ├── Components/
+│   ├── Screens/
+│   ├── images/
+│   ├── App.js
+│   └── index.js
+│
+├── package.json
 └── README.md
 ```
 
